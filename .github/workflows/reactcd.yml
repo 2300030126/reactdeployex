@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 permissions:
-  contents: write
+  contents: write  
 
 jobs:
   build-and-deploy:
@@ -28,8 +28,8 @@ jobs:
 
       - name: Configure Git identity
         run: |
-          git config --global user.name "YOUR_NAME"
-          git config --global user.email "YOUR_EMAIL"
+          git config --global user.name "2300030126"
+          git config --global user.email "chennamsrinivas233@gmail.com"
 
       - name: Authenticate and deploy to GitHub Pages
         env:
